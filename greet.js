@@ -1,9 +1,3 @@
-var Greet = function() {};
+var person = require('./person');
 
-Greet.prototype.name = function(name) {
-  return 'Hello, ' + name;
-};
-
-module.exports = new Greet();
-
-
+console.log(person.greet(process.argv[2]));
