@@ -14,3 +14,5 @@ gulp.task('lint', function(){
               .pipe(jshint())
               .pipe(jshint.reporter('jshint-stylish'));
 });
+
+gulp.watch(['./test/*.js', '*.js'], ['test', 'lint']);
