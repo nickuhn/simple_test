@@ -1,0 +1,29 @@
+{
+  "name": "simple_test",
+  "version": "0.1.0",
+  "description": "Simple greet module with testing",
+  "main": "greet.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickuhn/simple_test.git"
+  },
+  "author": "Nick Kuhn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickuhn/simple_test/issues"
+  },
+  "homepage": "https://github.com/nickuhn/simple_test#readme",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.2",
+    "jshint-stylish": "^2.0.1",
+    "mocha": "^2.2.5"
+  }
+}
